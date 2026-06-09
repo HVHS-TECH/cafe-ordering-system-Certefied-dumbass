@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="styles.css">
 <head>
-<title>Page Title</title>
+<title>Byte to eat cafe</title>
 </head>
 <body>
+<br>
+<h1>Welcome to the Byte to eat cafe</h1>
+<p></p>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-  
+<form onsubmit ="return false">
+    <label for="formShopping">Add to shopping list:</label>
+    <input type="text" id="shoppingField" name="formShopping">
+    <input type="submit" onClick=getFormInputShopping()>
+  </form>
+  <button onclick="displayList()">View list</button>
 <script src="script.js"></script>
 </body>
 </html>
