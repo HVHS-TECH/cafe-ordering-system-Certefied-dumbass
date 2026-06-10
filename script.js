@@ -1,7 +1,7 @@
 console.log("Hello world!")
-
+// order form framework
 let shoppingList = [];
-
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 function getFormInputShopping(){
     const SHOPPING_FIELD = document.getElementById("shoppingField")
     let item = SHOPPING_FIELD.value
@@ -14,7 +14,6 @@ function getFormInputShopping(){
         OUTPUT.innerHTML += "<p>"+shoppingList[i]+"</p>"
       }
     }
-    OUTPUT.innerHTML += ("<p> Shopping list:"+shoppingList+"</p>")
 const SHOPPING_FIELD = document.getElementById("shoppingField")
 shoppingList.push(SHOPPING_FIELD.value)
     OUTPUT.innerHTML += ("<p>Shopping list: "+shoppingList+"</p>")
