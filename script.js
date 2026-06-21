@@ -12,6 +12,7 @@ function getFormInputShopping(){
       OUTPUT.innerHTML = "<p>Your list:</p>"
       for (i=0;i<shoppingList.length;i++){
         OUTPUT.innerHTML += "<p>"+shoppingList[i]+"</p>"
+        console.log(costs[shoppingList]);
       }
     }
 const SHOPPING_FIELD = document.getElementById("shoppingField")
@@ -24,4 +25,4 @@ const costs = [4.50, 3.00, 3.25, 7.00];
 
 // Accessing the cost
 
-console.log(costs[shoppingList]); // Output: 3.25
+ // Output: 3.25
