@@ -17,4 +17,3 @@ function getFormInputShopping(){
 const SHOPPING_FIELD = document.getElementById("shoppingField")
 shoppingList.push(SHOPPING_FIELD.value)
     OUTPUT.innerHTML += ("<p>Shopping list: "+shoppingList+"</p>")
-const H-Tea-ML = (3.00)
