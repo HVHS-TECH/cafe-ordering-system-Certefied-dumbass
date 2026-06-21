@@ -23,5 +23,5 @@ const items = ['Coffee', 'Muffin', 'Sandwich'];
 const costs = [4.50, 3.25, 7.00];
 
 // Accessing the cost
-const index = 1; // "Muffin"
+const index = 3; // "Muffin"
 console.log(costs[index]); // Output: 3.25
