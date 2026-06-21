@@ -24,4 +24,4 @@ const costs = [4.50, 3.00, 3.25, 7.00];
 
 // Accessing the cost
 
-console.log(costs[index]); // Output: 3.25
+console.log(costs[shoppingList]); // Output: 3.25
