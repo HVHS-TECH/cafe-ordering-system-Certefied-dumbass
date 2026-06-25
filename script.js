@@ -12,7 +12,7 @@ function getFormInputShopping(){
       OUTPUT.innerHTML = "<p>Your list:</p>"
       for (i=0;i<shoppingList.length;i++){
         OUTPUT.innerHTML += "<p>"+shoppingList[i]+"</p>"
-        console.log([costs](shoppingList));
+        console.log(price=menu shoppingList);
       }
     }
 const SHOPPING_FIELD = document.getElementById("shoppingField")
@@ -20,8 +20,11 @@ shoppingList.push(SHOPPING_FIELD.value)
     OUTPUT.innerHTML += ("<p>Shopping list: "+shoppingList+"</p>")
 const hteaml ={
   Price: 3}
-
-  const menu = [hteaml,]
+const java ={
+  price: 3
+}
+const dummy = "how did you buys this"
+  const menu = [dummy, hteaml, java]
 
 // Accessing the cost
 
