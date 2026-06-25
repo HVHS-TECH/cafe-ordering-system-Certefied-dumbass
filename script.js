@@ -22,7 +22,5 @@ const hteaml = (3.00)
 
 const items = ['Coffee', 'Muffin', 'Sandwich'];
 const costs = [4.50, 3.00, 3.25, 7.00];
-
 // Accessing the cost
 
- // Output: 3.25
