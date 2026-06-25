@@ -18,9 +18,8 @@ function getFormInputShopping(){
 const SHOPPING_FIELD = document.getElementById("shoppingField")
 shoppingList.push(SHOPPING_FIELD.value)
     OUTPUT.innerHTML += ("<p>Shopping list: "+shoppingList+"</p>")
-const hteaml = (3.00)
+const hteaml ={
+  Price: 3}
 
-const items = ['Coffee', 'Muffin', 'Sandwich'];
-const costs = [4.50, 3.00, 3.25, 7.00];
 // Accessing the cost
 
