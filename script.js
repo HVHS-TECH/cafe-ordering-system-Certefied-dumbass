@@ -21,7 +21,7 @@ shoppingList.push(SHOPPING_FIELD.value)
 const hteaml ={
   Price: 3}
 
-  const menu[]
+  const menu = [hteaml,]
 
 // Accessing the cost
 
