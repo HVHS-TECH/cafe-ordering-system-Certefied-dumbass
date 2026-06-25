@@ -12,7 +12,7 @@ function getFormInputShopping(){
       OUTPUT.innerHTML = "<p>Your list:</p>"
       for (i=0;i<shoppingList.length;i++){
         OUTPUT.innerHTML += "<p>"+shoppingList[i]+"</p>"
-        console.log(price=menu[shoppingList]);
+        console.log(menu[shoppingList]);
       }
     }
 const SHOPPING_FIELD = document.getElementById("shoppingField")
