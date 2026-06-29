@@ -26,7 +26,7 @@ const java ={
 const dummy = "how did you buys this"
   const menu = [dummy, hteaml, java]
 const total = 0
-total + price menu[shoppingList]
+total + price [shoppingList]
 
 // Accessing the cost
 
